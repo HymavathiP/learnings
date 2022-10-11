@@ -13,8 +13,8 @@ spec:
         app: Dockersampleconfig
     spec:
       containers:
-      - name: cdxdockerrepos
-        image: cdxsamplecr.azurecr.io/cdxdockerrepos:latest
+      - name: HymaCR
+        image: hymacr.azurecr.io/learningrepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
