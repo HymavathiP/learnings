@@ -13,7 +13,7 @@ spec:
         app: Dockersampleconfig
     spec:
       containers:
-      - name: HymaCR
+      - name: hymacr
         image: hymacr.azurecr.io/learningrepos:latest
         ports:
         - containerPort: 8080
